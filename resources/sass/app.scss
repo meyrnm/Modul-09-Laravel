@@ -1,0 +1,66 @@
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Bootstrap Icons
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+  --bs-primary: #1e3a8a;
+  --bs-primary-rgb: 30, 58, 138;
+  --bs-secondary-rgb: 100, 116, 139;
+  --bs-link-color-rgb: 30, 58, 138;
+  --bs-body-color: #0f172a;
+  --bs-body-bg: #f8fafc;
+  --bs-border-color-translucent: #e2e8f0;
+  --bs-code-color: var(--bs-body-color);
+  --bs-body-font-family: 'Inter', Arial, sans-serif;
+  --bs-font-monospace: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+.container {
+  max-width: 960px;
+  --bs-gutter-x: 3rem;
+}
+
+.navbar {
+  --bs-navbar-color: #64748b;
+  --bs-navbar-hover-color: #1e3a8a;
+  --bs-navbar-active-color: #1e3a8a;
+  min-height: 64px;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid var(--bs-primary);
+}
+
+.btn-primary {
+  --bs-btn-bg: #1e3a8a;
+  --bs-btn-border-color: #1e3a8a;
+  --bs-btn-hover-bg: #172e6e;
+  --bs-btn-hover-border-color: #172e6e;
+  --bs-btn-active-bg: #172e6e;
+  --bs-btn-active-border-color: #172e6e;
+}
+
+.card {
+  --bs-card-bg: #fff;
+}
+
+.bg-brand {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+}
+
+.text-accent {
+  color: #3b82f6;
+}
+
+.thumb {
+  height: 160px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.icon-box {
+  width: 44px;
+  height: 44px;
+}
